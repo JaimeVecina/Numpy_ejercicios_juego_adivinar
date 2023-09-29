@@ -29,3 +29,7 @@ while not adivinado:
     else:
         print(f"Felicidades, has adivinado el número secreto {numero_azar} en {intentos} intentos.")
         adivinado = True
+
+if __name__=="__main__":
+    adivina_numero()
+
